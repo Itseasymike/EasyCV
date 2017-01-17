@@ -1,0 +1,84 @@
+<%= render 'layouts/header' %>
+
+<%= form_for :resume, method: 'post', class: "col s12", url: {action: 'create'} do |f| %>
+<div class="row">
+  <div class="carousel carousel-slider center" data-indicators="true">
+    <div class="carousel-fixed-item center">
+
+    </div>
+    <div class="carousel-item #0d47a1 blue darken-4 white-text" href="#one!">
+      <h2>Fill in your information</h2>
+      <div class="row">
+
+      <div class="input-field col s3">
+      <p>Full Name <%= f.text_field :fullname%> </p>
+      </div>
+
+      <div class="input-field col s3">
+      <p>Title <%= f.text_field :current_title%> </p>
+      </div>
+
+      <div class="input-field col s3">
+      <p>Email <%= f.text_field :email%> </p>
+      </div>
+
+      <div class="input-field col s3">
+      <p>Phone <%= f.text_field :phone%> </p>
+      </div>
+
+      <div class="input-field col s3">
+      <p>Website <%= f.text_field :site%> </p>
+      </div>
+
+      <div class="input-field col s9">
+      <p>Profile <%= f.text_area :profile%> </p>
+      </div>
+
+    </div>  <!-- ROW -->
+    </div> <!-- CAROUSEL ITEM -->
+
+    <div class="carousel-item #0d47a1 blue darken-4 white-text" href="#two!">
+
+      <div class="input-field col s4">
+      <p>Job Title <%= f.text_field :job_title%> </p>
+      </div>
+
+      <div class="input-field col s4">
+      <p>Company <%= f.text_field :company%> </p>
+      </div>
+
+      <div class="input-field col s4">
+      <p>Date <%= f.text_field :date%> </p>
+      </div>
+
+      <div class="input-field col s6">
+      <p>Description <%= f.text_area :description%> </p>
+      </div>
+
+    </div>  <!-- CAROUSEL ITEM -->
+
+    <div class="carousel-item #0d47a1 blue darken-4 white-text" href="#three!">
+      <div class="input-field col s6">
+      <p>Skills <%= f.text_field :skills%> </p>
+      </div>
+    </div> <!-- CAROUSEL ITEM -->
+
+    <div class="carousel-item #0d47a1 blue darken-4 white-text" href="#four!">
+      <div class="input-field col s8">
+
+      <p>Education <%= f.text_field :education%> </p>
+      </div>
+
+      <div class="input-field col s8">
+      <p>Description <%= f.text_area :edu_description%> </p>
+      <button type="submit" name="action" class="waves-effect #42a5f5 blue lighten-1"><%= f.submit "Submit" %></button>
+      </div>
+
+    </div>
+  </div>
+  </div> <!-- CAROUSEL -->
+</div> <!-- ROW -->
+<% end %>
+
+
+<%= render 'layouts/footer' %>

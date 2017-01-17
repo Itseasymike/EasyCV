@@ -1,0 +1,88 @@
+<!-- The following resume template is credited to http://www.thomashardy.me.uk/free-responsive-html-css3-cv-template -->
+
+<% content_for :index do %>
+    <%= stylesheet_link_tag "resumes.css" %>
+<% end %>
+
+<div id="cv" class="instaFade">
+  <div class="mainDetails">
+    <div id="name">
+      <h1 class="quickFade delayTwo"><%= @resume['fullname'] %> </h1>
+      <h2 class="quickFade delayThree"><%= @resume['current_title'] %></h2>
+    </div>
+
+    <div id="contactDetails" class="quickFade delayFour">
+      <ul>
+        <li>email: <a href="mailto:joe@bloggs.com" target="_blank"><%= @resume['email'] %></a></li>
+        <li>website: <a href="http://www.bloggs.com"><%= @resume['site'] %></a></li>
+        <li>phone: <%= @resume['phone'] %></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div id="mainArea" class="quickFade delayFive">
+    <section>
+      <article>
+        <div class="sectionTitle">
+          <h1>Personal Profile</h1>
+        </div>
+
+        <div class="sectionContent">
+          <p><%= @resume['profile'] %></p>
+        </div>
+      </article>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Work Experience</h1>
+      </div>
+
+      <div class="sectionContent">
+        <article>
+          <h2><%= @resume['job_title'] %>, <%= @resume['company'] %></h2>
+          <p class="subDetails"><%= @resume['date'] %></p>
+          <p><%= @resume['description'] %></p>
+        </article>
+
+      </div>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Key Skills</h1>
+      </div>
+
+      <div class="sectionContent">
+        <ul class="keySkills">
+          <li><%= @resume['skills'] %></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Education</h1>
+      </div>
+
+      <div class="sectionContent">
+        <article>
+          <h2><%= @resume['education'] %></h2>
+          <p><%= @resume['edu_description'] %></p>
+        </article>
+
+      </div>
+      <div class="clear"></div>
+    </section>
+
+  </div>
+</div>
+
+<button></button>
