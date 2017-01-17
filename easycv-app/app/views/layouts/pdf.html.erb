@@ -3,7 +3,7 @@
 <head>
   <title><%= @resume['fullname'] %> PDF Resume</title>
   <%= favicon_link_tag "easycv.ico" %>
-  <%= wicked_pdf_stylesheet_link_tag params[:controller], media: 'all' %>
+  <%= wicked_pdf_stylesheet_link_tag 'resumes.css', media: 'all' %>
 </head>
 <body>
   <div id="cv" class="instaFade">

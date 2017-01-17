@@ -1,6 +1,8 @@
 class ResumesController < ApplicationController
+   layout 'reslayout'
   def index
     @resumes = Resume.all
+    render :layout => 'site_layout'
   end
 
   def create
@@ -19,6 +21,7 @@ class ResumesController < ApplicationController
                   education: resume['education'],
                   edu_description: resume['edu_description'])
     redirect_to "/resumes/"+ params[:id]
+
   end
 
   def update
@@ -36,6 +39,7 @@ class ResumesController < ApplicationController
                   skills:resume['skills'],
                   education: resume['education'],
                   edu_description: resume['edu_description'])
+
   end
 
   # wicked_pdf gem setup
@@ -48,6 +52,7 @@ class ResumesController < ApplicationController
                template: 'resumes/show.html.erb',
                layout: 'pdf.html.erb'
                # show_as_html: params[:debug].present?
+
       end
     end
   end
