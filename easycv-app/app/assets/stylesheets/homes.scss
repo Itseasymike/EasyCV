@@ -40,7 +40,7 @@ img {
   position: absolute;
   top: 0;
   left: 50%;
-  animation: fall 6s linear infinite;
+  animation: fall 6s linear ;
 }
 
 .resume:hover {
@@ -49,15 +49,16 @@ img {
 
 
 #home {
-  position: absolute;
-
+  position: relative;
   margin: 0 auto;
+  width: 50%;
   background-color: white;
   border-radius: 5px;
   padding: 20px;
+  z-index: 100;
 }
 
 
 
-}
+} // end Game Styles
 

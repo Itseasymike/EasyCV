@@ -20,7 +20,7 @@ class ResumesController < ApplicationController
                   skills:resume['skills'],
                   education: resume['education'],
                   edu_description: resume['edu_description'])
-    redirect_to "/resumes/"+ params[:id]
+    # redirect_to "/resumes/"+ params[:id]
 
   end
 
@@ -40,6 +40,11 @@ class ResumesController < ApplicationController
                   education: resume['education'],
                   edu_description: resume['edu_description'])
 
+  end
+
+  def destroy
+    Resume.destroy(params[:id])
+    redirect_to '/resumes'
   end
 
   # wicked_pdf gem setup
