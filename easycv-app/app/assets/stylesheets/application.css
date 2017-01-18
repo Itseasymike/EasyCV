@@ -16,6 +16,51 @@
 
 
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+/* .logo {
+  color: red;
+} */
 
 
 
+
+
+ /* HOMEPAGE STYLING */
+
+.bgimage {
+  width:  100%;
+}
+
+#navbar {
+  position: absolute;
+}
+
+#content {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  z-index: 1;
+}
+
+#logo {
+  font-size: 4em;
+  text-shadow: 2px 2px grey;
+}
+
+#cv {
+  font-size: 3em;
+  color: white;
+  background-color: rgb(0, 119, 181);
+  border-radius: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

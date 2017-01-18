@@ -1,13 +1,24 @@
-  <div class="parallax-container">
-    <div class="parallax"><%= image_tag("web-bg.png") %></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">f zoudykfis an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    <nav id="navbar" class="transparent">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/resumes">Create a Resume</a></li>
+          </ul>
+    </nav>
+
+
+    <div id="background">
+      <%= image_tag("web-bg.png", class: "bgimage") %>
+
+      <div id="content">
+        <span id="logo">Easy</span>
+        <span id="cv">CV</span>
+        <p>Powered by: <%= image_tag("linkedinlogo2.png") %></p>
+
+        <button><a href="/resumes">Build a Resume</a></button>
+      </div>
+
     </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax2.jpg"></div>
-  </div>
+
+
+
+
 

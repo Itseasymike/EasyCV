@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+gem 'jquery-turbolinks'
 # Converts my HTML templates t PDFs
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
