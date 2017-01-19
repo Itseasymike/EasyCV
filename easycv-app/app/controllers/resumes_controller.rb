@@ -2,6 +2,7 @@ class ResumesController < ApplicationController
    layout 'reslayout'
   def index
     @resumes = Resume.all
+    # @resume = Resume.find_by(id: params[:id])
     render :layout => 'site_layout'
   end
 
@@ -21,6 +22,7 @@ class ResumesController < ApplicationController
                   education: resume['education'],
                   edu_description: resume['edu_description'])
     # redirect_to "/resumes/"+ params[:id]
+     redirect_to "/resumes/#{@resume.id}"
 
   end
 
