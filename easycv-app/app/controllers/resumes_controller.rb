@@ -1,8 +1,6 @@
 class ResumesController < ApplicationController
    layout 'reslayout'
   def index
-    @resumes = Resume.all
-    # @resume = Resume.find_by(id: params[:id])
     render :layout => 'site_layout'
   end
 
@@ -23,7 +21,6 @@ class ResumesController < ApplicationController
                   edu_description: resume['edu_description'])
     # redirect_to "/resumes/"+ params[:id]
      redirect_to "/resumes/#{@resume.id}"
-
   end
 
   def update
@@ -41,7 +38,7 @@ class ResumesController < ApplicationController
                   skills:resume['skills'],
                   education: resume['education'],
                   edu_description: resume['edu_description'])
-
+    redirect_to '/resumes'
   end
 
   def destroy
@@ -59,7 +56,6 @@ class ResumesController < ApplicationController
                template: 'resumes/show.html.erb',
                layout: 'pdf.html.erb'
                # show_as_html: params[:debug].present?
-
       end
     end
   end

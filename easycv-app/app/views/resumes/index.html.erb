@@ -1,20 +1,18 @@
-    <nav id="header">
-      <div class="nav-wrapper">
-          <a href="/" class="brand-logo">easy<span id="cvlogo">CV</span></a>
-          <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="/resumes">Create a Resume</a></li>
-          </ul> -->
-      </div>
-    </nav>
+<nav id="header">
+  <div class="nav-wrapper">
+      <a href="/" class="brand-logo">easy<span id="cvlogo">CV</span></a>
+  </div>
+</nav>
+
 
 <div id="form">
-<%= form_for :resume, method: 'post', class: "col s12", url: {action: 'create'} do |f| %>
+<%= form_for :resume, method: 'post', class: "col s12", id: 'test', url: {action: 'create'} do |f| %>
 <div class="row">
   <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-fixed-item center">
 
     </div>
-    <div class="carousel-item #e0e0e0 grey lighten-2" href="#one!">
+    <div class="carousel-item #e0e0e0 grey lighten-2">
       <h2>Fill in your information</h2>
       <!-- <div class="row"> -->
 
@@ -31,11 +29,11 @@
       </div>
 
       <div class="input-field col s3">
-      <p>Phone <%= f.text_field :phone%> </p>
+      <p>Phone <%= f.text_field :phone, placeholder: "(212) 555-5555"%> </p>
       </div>
 
       <div class="input-field col s3">
-      <p>Website <%= f.text_field :site%> </p>
+      <p>Website <%= f.text_field :site, placeholder: "easycv.com"%> </p>
       </div>
 
       <div class="input-field col s9">
@@ -45,7 +43,7 @@
     <!-- </div> -->  <!-- ROW -->
     </div> <!-- CAROUSEL ITEM -->
 
-    <div class="carousel-item #e0e0e0 grey lighten-2" href="#two!">
+    <div class="carousel-item #e0e0e0 grey lighten-2">
 
       <div class="input-field col s4">
       <p>Job Title <%= f.text_field :job_title%> </p>
@@ -65,13 +63,13 @@
 
     </div>  <!-- CAROUSEL ITEM -->
 
-    <div class="carousel-item #e0e0e0 grey lighten-2" href="#three!">
+    <div class="carousel-item #e0e0e0 grey lighten-2">
       <div class="input-field col s6">
       <p>Skills <%= f.text_field :skills%> </p>
       </div>
     </div> <!-- CAROUSEL ITEM -->
 
-    <div class="carousel-item #e0e0e0 grey lighten-2" href="#four!">
+    <div class="carousel-item #e0e0e0 grey lighten-2">
       <div class="input-field col s8">
 
       <p>Education <%= f.text_field :education%> </p>
@@ -87,4 +85,5 @@
 </div> <!-- ROW -->
 <% end %>
 </div> <!-- FORM -->
+
 

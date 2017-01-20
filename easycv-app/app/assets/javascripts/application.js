@@ -65,59 +65,44 @@
 
 
 
+      // $(this) = .resumeX
+      // Figure out why using .effect('explode'); stops the flow of random items
 
-       // resume0.click(function(event) {
-       //    event.remove();
-       //  });
-       // resume1.click(function(event) {
-       //    event.remove();
-       //  });
-       // resume2.click(function(event) {
-       //    event.remove();
-       //  });
-       // resume3.click(function(event) {
-       //    event.remove();
-       //  });
-
-
-       // $(this) = .resumeX
-       // Figure out why using .effect('explode'); stops the flow of random items
-
-      // $(document).on('click', '.resume0', function(e) {
-      //   $(this).remove();
-      // });
-
-      // $(document).on('click', '.resume1', function(e) {
-      //   $(this).remove();
-      // });
-
-      // $(document).on('click', '.resume2', function(e) {
-      //   $(this).remove();
-      // });
-
-      // $(document).on('click', '.resume3', function(e) {
-      //   $(this).remove();
-      // });
-
-       $(document).on('click', '.resume0', function(e) {
-        $(this).effect('explode').remove();
-
+      $(document).on('click', '.resume0', function(e) {
+        $(this).remove();
       });
 
       $(document).on('click', '.resume1', function(e) {
-        $(this).effect('explode').remove();
-        // $(this).remove();
+        $(this).remove();
       });
 
       $(document).on('click', '.resume2', function(e) {
-        $(this).effect('explode').remove();
-        // $(this).remove();
+        $(this).remove();
       });
 
       $(document).on('click', '.resume3', function(e) {
-        $(this).effect('explode').remove();
-        // $(this).remove();
+        $(this).remove();
       });
+
+       $(document).on('click', '.resume0', function(e) {
+        $(this).remove();
+
+      });
+
+      // $(document).on('click', '.resume1', function(e) {
+      //   $(this).effect('explode').remove();
+      //   // $(this).remove();
+      // });
+
+      // $(document).on('click', '.resume2', function(e) {
+      //   $(this).effect('explode').remove();
+      //   // $(this).remove();
+      // });
+
+      // $(document).on('click', '.resume3', function(e) {
+      //   $(this).effect('explode').remove();
+      //   // $(this).remove();
+      // });
 
 
       $(' #exit ').click(function(e) {
