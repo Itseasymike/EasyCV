@@ -1,7 +1,5 @@
 # easyCV
-*When you think resume, think easyCV*
-
-[Link to site](https://easycv.herokuapp.com/)
+*When you think resume, think [easyCV](https://easycv.herokuapp.com/)*
 
 
 ![alt tag](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
