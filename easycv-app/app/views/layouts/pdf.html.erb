@@ -15,8 +15,8 @@
 
     <div id="contactDetails" class="quickFade delayFour">
       <ul>
-        <li>email: <a href="mailto:joe@bloggs.com"><%= @resume['email'] %></a></li>
-        <li>website: <a href="http://www.bloggs.com" target="_blank"><%= @resume['site'] %></a></li>
+        <li>email: <a href="mailto:<%= @resume['email'] %>"><%= @resume['email'] %></a></li>
+        <li>website: <a href="<%= @resume['site'] %>" target="_blank"><%= @resume['site'] %></a></li>
         <li>phone: <%= @resume['phone'] %></li>
       </ul>
     </div>

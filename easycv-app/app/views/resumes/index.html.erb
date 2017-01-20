@@ -1,9 +1,9 @@
     <nav id="header">
       <div class="nav-wrapper">
           <a href="/" class="brand-logo">easy<span id="cvlogo">CV</span></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="/resumes">Create a Resume</a></li>
-          </ul>
+          </ul> -->
       </div>
     </nav>
 
@@ -79,7 +79,7 @@
 
       <div class="input-field col s8">
       <p>Description <%= f.text_area :edu_description%> </p>
-      <button type="submit" name="action" class="waves-effect #42a5f5 blue lighten-1"><%= f.submit "Submit" %></button>
+      <%= f.submit "Submit", id: "btn" %>
       </div>
     </div> <!-- CAROUSEL ITEM -->
 
