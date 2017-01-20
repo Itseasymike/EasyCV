@@ -15,7 +15,7 @@ easyCV is a wicked awesome and should be used by LinkedIn ASAP!
 
 ### Wireframe Example
 
-![alt tag](http://imgur.com/IodFqn4)
+![alt tag](http://i.imgur.com/IodFqn4m.jpg)
 
 
 ## Tech
