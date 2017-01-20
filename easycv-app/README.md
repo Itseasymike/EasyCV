@@ -1,17 +1,21 @@
 # easyCV
+*When you think resume, think easyCV*
 
-[Link_to_site_soon](https://google.com)
+[Link to site](https://easycv.herokuapp.com/)
 
 
 ![alt tag](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
 
 ## About
 
-easyCV is wicked awesome and should be used by LinkedIn ASAP!
+easyCV is made for professionals who want an eye catching resume 
+that is sure to get them that interview. 
+
+easyCV is a wicked awesome and should be used by LinkedIn ASAP!
 
 ### Wireframe Example
 
-![alt tag](COMING SOON!)
+![alt tag](http://imgur.com/IodFqn4)
 
 
 ## Tech
@@ -30,4 +34,11 @@ easyCV is wicked awesome and should be used by LinkedIn ASAP!
 ### Misc
 * [Wicked_PDF Gem](https://github.com/mileszs/wicked_pdf)
 
+#### Issues to Fix
+* /resumes route only renders form_for upon page refresh
+* PDF should take exact styling of resume layout
 
+#### Things to Come!
+* More resume templates for users to choose from
+* More user customizations
+* OAUTH with LinkedIn API!!!
