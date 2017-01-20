@@ -1,4 +1,4 @@
-# easyCV
+#![alt tag](http://i.imgur.com/TkaVD9e.png)
 *When you think resume, think [easyCV](https://easycv.herokuapp.com/)*
 
 
