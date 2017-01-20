@@ -33,17 +33,45 @@ img {
     top: 0%;
   }
 
+  50% {
+    top: 50%;
+  }
+
   100% {
     top: 100%;
   }
 }
 
-.resume {
+.resume0 {
   width: 10%;
   position: absolute;
   top: 0;
-  left: 50%;
-  animation: fall 6s linear ;
+  left: 0;
+  animation: fall 3s linear ;
+}
+
+.resume1 {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 30%;
+  animation: fall 3s linear ;
+}
+
+.resume2 {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 60%;
+  animation: fall 3s linear ;
+}
+
+.resume3 {
+  width: 10%;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  animation: fall 3s linear ;
 }
  // height:  130px;
  //  width:  130px;
@@ -51,7 +79,19 @@ img {
  //  position: absolute;
  //  top:  0;
  //  animation:  fall 6s linear infinite;
-.resume:hover {
+.resume0:hover {
+  cursor: pointer;
+}
+
+.resume1:hover {
+  cursor: pointer;
+}
+
+.resume2:hover {
+  cursor: pointer;
+}
+
+.resume3:hover {
   cursor: pointer;
 }
 
