@@ -1,24 +1,33 @@
-# README
+# easyCV
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Link_to_site_soon](https://google.com)
 
-Things you may want to cover:
 
-* Ruby version
+![alt tag](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
 
-* System dependencies
+## About
 
-* Configuration
+easyCV is wicked awesome and should be used by LinkedIn ASAP!
 
-* Database creation
+### Wireframe Example
 
-* Database initialization
+![alt tag](COMING SOON!)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Tech
 
-* Deployment instructions
+### Frontend
+* Javascript
+* jQuery
+* HTML
+* CSS
+* Materialize CSS
 
-* ...
+### Backend
+* Ruby on Rails
+* PosgreSQL
+
+### Misc
+* [Wicked_PDF Gem](https://github.com/mileszs/wicked_pdf)
+
+
