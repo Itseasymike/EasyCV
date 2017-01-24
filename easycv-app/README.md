@@ -1,8 +1,8 @@
 #![alt tag](http://i.imgur.com/TkaVD9e.png)
 *When you think resume, think [easyCV](https://easycv.herokuapp.com/)*
+![alt tag](http://i.imgur.com/rh6j2fLh.png)
 
 
-![alt tag](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
 
 ## About
 
@@ -10,6 +10,7 @@ easyCV is made for professionals who want an eye catching resume
 that is sure to get them that interview. 
 
 easyCV is a wicked awesome and should be used by LinkedIn ASAP!
+![alt tag](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
 
 ### Wireframe Example
 
@@ -33,7 +34,6 @@ easyCV is a wicked awesome and should be used by LinkedIn ASAP!
 * [Wicked_PDF Gem](https://github.com/mileszs/wicked_pdf)
 
 #### Issues to Fix
-* /resumes route only renders form_for upon page refresh
 * PDF should take exact styling of resume layout
 
 #### Things to Come!

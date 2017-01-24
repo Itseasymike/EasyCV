@@ -13,7 +13,7 @@
     <!-- TEST COMMENT!!!!!!!!!! -->
     <!-- <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'> -->
     <%= csrf_meta_tags %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', :media => "all", 'data-turbolinks-track': 'reload' %>
 
   </head>
 
@@ -44,11 +44,8 @@
         </div>
       </div>
     </footer>
-
-        <!--jQuery / Materialize.js-->
-    <!-- <script type="text/javascript" src="/assets/javascripts/application.js"></script> -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-
   </body>
+   <!--jQuery / Materialize.js-->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 </html>

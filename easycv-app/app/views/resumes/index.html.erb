@@ -1,9 +1,4 @@
-<nav id="header">
-  <div class="nav-wrapper">
-      <a href="/" class="brand-logo">easy<span id="cvlogo">CV</span></a>
-  </div>
-</nav>
-
+<%= render "header" %>
 
 <div id="form">
 <%= form_for :resume, method: 'post', class: "col s12", id: 'test', url: {action: 'create'} do |f| %>
@@ -83,7 +78,7 @@
 
   </div> <!-- CAROUSEL -->
 </div> <!-- ROW -->
+
 <% end %>
+
 </div> <!-- FORM -->
-
-
