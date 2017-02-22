@@ -99,10 +99,6 @@
       //   // $(this).remove();
       // });
 
-      // $(document).on('click', '.resume3', function(e) {
-      //   $(this).effect('explode').remove();
-      //   // $(this).remove();
-      // });
 
 
       $(' #exit ').click(function(e) {
@@ -112,5 +108,3 @@
 
 
 });
-
-
