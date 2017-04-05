@@ -89,18 +89,6 @@
 
       });
 
-      // $(document).on('click', '.resume1', function(e) {
-      //   $(this).effect('explode').remove();
-      //   // $(this).remove();
-      // });
-
-      // $(document).on('click', '.resume2', function(e) {
-      //   $(this).effect('explode').remove();
-      //   // $(this).remove();
-      // });
-
-
-
       $(' #exit ').click(function(e) {
         $(' #home').remove();
         showImage();
